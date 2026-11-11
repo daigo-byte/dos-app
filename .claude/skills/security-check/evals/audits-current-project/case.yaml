@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: audits-current-project
+expected_outcome: |
+  現状の AI Writing Studio を調べ、重要度付きの日本語レポートを出す。Streamlit の待ち受けアドレスが未設定で
+  LAN に公開される点を高として挙げ、.streamlit/config.toml で localhost に限定する修正案と影響（他端末から使えなくなる）を示す。
+  認証がないこと自体は設計どおりとして指摘しない。問題なし・未確認の項目も示し、ファイルは変更せず、どれを直すかを尋ねて終わる。
+context:
+  scaffold_script: place-files.sh
